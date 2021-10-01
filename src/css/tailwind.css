@@ -1,11 +1,19 @@
 @tailwind base;
 
+body {
+  background-color: black;
+  font-family: "Montserrat", georgia, serif;
+}
+
 a {
   @apply text-primary;
 }
 a:hover {
   @apply text-primary-darker;
 }
+
+
+
 
 @tailwind components;
 

@@ -66,6 +66,7 @@ const Index = () => (
         </div>
       </div>
     </section>
+    {/*
     <SplitSection
       id="services"
       primarySlot={
@@ -108,6 +109,7 @@ const Index = () => (
       }
       secondarySlot={<SvgCharts />}
     />
+    */}
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Our customers get results</LabelText>
@@ -145,6 +147,7 @@ const Index = () => (
         <Button size="xl">Get Started Now</Button>
       </p>
     </section>
+    
   </Layout>
 );
 
