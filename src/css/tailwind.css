@@ -5,12 +5,13 @@ body {
   font-family: "Montserrat", georgia, serif;
 }
 
-a {
+
+/* a {
   @apply text-primary;
 }
 a:hover {
   @apply text-primary-darker;
-}
+} */
 
 
 
