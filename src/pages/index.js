@@ -1,14 +1,8 @@
 import React from 'react';
 import Button from '../components/Button';
 import Card from '../components/Card';
-import CustomerCard from '../components/CustomerCard';
-import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
-import StatsBox from '../components/StatsBox';
-import customerData from '../data/customer-data';
-import SvgCharts from '../svg/SvgCharts';
-import LogoIcon from '../svg/LogoIcon';
 import PavimentiIcon from '../svg/PavimentiIcon';
 import SerramentiIcon from '../svg/SerramentiIcon';
 import CreazioniIcon from '../svg/CreazioniIcon';
@@ -199,7 +193,7 @@ const Index = () => (
             title="Il nostro telefono"
             className="transition-colors duration-300 hover:text-white"
           >
-            <Button size="xl" className="w-full sm:w-auto mb-4 md:mb-0 md:mr-4 shadow">
+            <Button size="xl" className="w-full md:w-auto mb-4 md:mb-0 md:mr-4 shadow">
               <FaPhone className="inline" /> Telefono
             </Button>
           </a>
@@ -209,7 +203,7 @@ const Index = () => (
               title="La nostra email"
               className="transition-colors duration-300 hover:text-deep-purple-800"
             >
-          <Button size="xl" className="w-full sm:w-auto shadow" href="mailto:info@2mwood.com">
+          <Button size="xl" className="w-full md:w-auto shadow" href="mailto:info@2mwood.com">
             <FaEnvelope className="inline" /> E-mail
           </Button>
           </a>

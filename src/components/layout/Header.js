@@ -1,8 +1,9 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoIcon from '../../svg/LogoIcon';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)

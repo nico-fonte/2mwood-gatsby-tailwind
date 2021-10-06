@@ -1,6 +1,8 @@
 import React from 'react';
 import LogoIcon from '../../svg/LogoIcon';
 import { MenuItems } from "./MenuItems";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
+
 
 
 const Footer = () => (
@@ -13,11 +15,12 @@ const Footer = () => (
         </div>
           <div className="mt-6 lg:max-w-sm"></div>
         </div>
-        <div className="space-y-2 text-xs">
-          <p className="text-sm font-bold tracking-wide">
+        <div className="space-y-2 text-xs mb-4">
+          <p className="text-lg lg:text-sm font-bold tracking-wide mb-3">
             Contatti
           </p>
-          <div className="flex">
+          <ul className="text-sm md:text-xs text-light">
+          <li className="flex mb-2 md:mb-0">
             <p className="mr-1">Telefono:</p>
             <a
               href="tel: 333 - 1234567"
@@ -27,8 +30,8 @@ const Footer = () => (
             >
               333 - 1234567
             </a>
-          </div>
-          <div className="flex">
+          </li>
+          <li className="flex">
             <p className="mr-1">Email:</p>
             <a
               href="mailto:info@2mwood.com"
@@ -38,13 +41,17 @@ const Footer = () => (
             >
               info@2mwood.com
             </a>
-          </div>
+          </li>
+          </ul>
         </div>
         <div className="space-y-2 text-xs">
-          <p className="text-sm font-bold tracking-wide ">
+          <p className="text-lg lg:text-sm font-bold tracking-wide mb-3">
             Link rapidi
           </p>
-          <ul className="text-xs mb-3 space-y-2 lg:mb-0 sm:space-y-0">
+          <ul className="text-sm md:text-xs text-light mb-3 space-y-2 lg:mb-0 sm:space-y-0">
+            <li><AnchorLink href="#serramenti" className="hover:text-primary">Serramenti</AnchorLink></li>
+            <li><AnchorLink href="#pavimenti" className="hover:text-primary">Pavimenti</AnchorLink></li>
+            <li><AnchorLink href="#creazioni" className="hover:text-primary">Creazioni</AnchorLink></li>
           </ul>
         </div>
 

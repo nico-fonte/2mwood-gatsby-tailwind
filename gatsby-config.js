@@ -21,6 +21,15 @@ module.exports = {
           include: /assets/ 
         }
       }
-    }
+    },
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -200,
+        duration: 5000,
+      }
+    },
+    `gatsby-plugin-smoothscroll`,
+    `react-scrollspy`
   ]
 };
