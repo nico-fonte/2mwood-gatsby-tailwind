@@ -1,7 +1,4 @@
 module.exports = [{
-      plugin: require('../node_modules/gatsby-plugin-web-font-loader/gatsby-browser.js'),
-      options: {"plugins":[],"typekit":{}},
-    },{
       plugin: require('../node_modules/gatsby-plugin-anchor-links/gatsby-browser.js'),
       options: {"plugins":[],"offset":-200,"duration":5000},
     },{

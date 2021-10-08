@@ -9,38 +9,23 @@ import CreazioniIcon from '../svg/CreazioniIcon';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { FaPhone } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
+import { FaChevronCircleDown } from 'react-icons/fa';
 
 const Index = () => (
   <Layout>
     <section className="pt-20">
       <div className="w-full relative">
-        <div class="absolute w-full h-full opacity-70 top-0 left-0 z-10 bg-gradient-to-r from-gray-600 via-amber-500"></div>
+        <div class="absolute w-full h-full opacity-70 top-0 left-0 z-10 bg-gradient-to-r from-primary sm:bg-gradient-to-r sm:from-gray-600 sm:via-amber-500"></div>
 
         <div className="absolute z-20 flex flex-col items-center w-full justify-center h-full">
-          <div className="px-4 text-white font-bold text-xl sm:text-4xl lg:text-6xl">
+          <div className="px-4 text-white text-center font-bold text-4xl lg:text-6xl">
             Riqualificazione e Creazione
           </div>
+          <FaChevronCircleDown size = '40' className="mt-40 block sm:hidden animate-bounce"/>
         </div>
-        <img src="https://i.ibb.co/QbTwCSB/hero.jpg" />
+        <img className="object-cover hidden sm:block" src="https://i.ibb.co/QbTwCSB/hero.jpg" />
+        <img className="object-cover block sm:hidden h-screen" src="https://images.pexels.com/photos/7473031/pexels-photo-7473031.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" />
       </div>
-      {/* <div className="container mx-auto px-8 lg:flex">
-        <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
-          </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
-          </p>
-          <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
-          </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
-        </div>
-        <div className="lg:w-1/2">
-          <HeroImage />
-        </div>
-      </div> */}
     </section>
     <section id="features" className="py-14 md:py-20 lg:pb-28 lg:pt-28 lg:mx-20">
       <div className="container mx-auto text-center">
@@ -52,10 +37,6 @@ const Index = () => (
                   <SerramentiIcon />
                 </div>
                 <p className="font-medium text-xl text-primary uppercase">Serramenti</p>
-                {/* <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p> */}
               </Card>
             </AnchorLink>
           </div>
@@ -66,10 +47,6 @@ const Index = () => (
                   <PavimentiIcon />
                 </div>
                 <p className="font-medium text-xl text-primary uppercase">Pavimenti</p>
-                {/* <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p> */}
               </Card>
             </AnchorLink>
           </div>
@@ -80,10 +57,6 @@ const Index = () => (
                   <CreazioniIcon />
                 </div>
                 <p className="font-medium text-xl text-primary uppercase">Creazioni</p>
-                {/* <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p> */}
               </Card>
             </AnchorLink>
           </div>
@@ -147,35 +120,6 @@ const Index = () => (
       }
       secondarySlot={<img src="https://images.pexels.com/photos/6284235/pexels-photo-6284235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />}
     />
-
-    {/* <section id="stats" className="py-20 lg:pt-32">
-      <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Our customers get results</LabelText>
-        <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="testimonials" className="py-20 lg:py-40">
-      <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
-        <div className="flex flex-col md:flex-row md:-mx-3">
-          {customerData.map((customer) => (
-            <div key={customer.customerName} className="flex-1 px-3">
-              <CustomerCard customer={customer} />
-            </div>
-          ))}
-        </div>
-      </div>
-    </section> */}
     <section id="contatti" className="container mx-auto my-20 px-8 mb-40">
       <div className="p-6 bg-primary-darker rounded-lg text-center text-white shadow">
         <h3 className="text-2xl md:text-5xl font-semibold">Contattaci per un preventivo su misura!</h3>
