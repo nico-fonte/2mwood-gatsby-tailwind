@@ -7,12 +7,13 @@ module.exports = {
       }
     },
     {
-      resolve: "gatsby-plugin-web-font-loader",
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        typekit: {
-          id: process.env.TYPEKIT_ID,
-        },
-      },
+        fonts: [
+          `montserrat\:100,200,300,400,500,600,700,800,900`
+        ],
+        display: 'swap'
+      }
     },
     {
       resolve: "gatsby-plugin-react-svg",
