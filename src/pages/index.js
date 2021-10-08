@@ -17,10 +17,10 @@ const Index = () => (
         <div class="absolute w-full h-full opacity-70 top-0 left-0 z-10 bg-gradient-to-r from-gray-600 via-amber-500"></div>
 
         <div className="absolute z-20 flex flex-col items-center w-full justify-center h-full">
-          <div className="p-6 text-white font-bold text-2xl sm:text-4xl lg:text-6xl">
+          <div className="px-4 text-white font-bold text-lg sm:text-4xl lg:text-6xl">
             Riqualificazione e Creazione
           </div>
-          <div className="p-6 text-white text-md lg:text-2xl mt-2 font-medium">
+          <div className="text-white text-sm lg:text-2xl mt-2 font-medium">
             Al servizio del nostro cliente
           </div>
         </div>
