@@ -17,10 +17,10 @@ const Index = () => (
         <div class="absolute w-full h-full opacity-70 top-0 left-0 z-10 bg-gradient-to-r from-gray-600 via-amber-500"></div>
 
         <div className="absolute z-20 flex flex-col items-center w-full justify-center h-full">
-          <div className="text-white font-bold text-2xl sm:text-4xl lg:text-6xl">
+          <div className="p-6 text-white font-bold text-2xl sm:text-4xl lg:text-6xl">
             Riqualificazione e Creazione
           </div>
-          <div className="text-white text-md lg:text-2xl mt-2 font-medium">
+          <div className="p-6 text-white text-md lg:text-2xl mt-2 font-medium">
             Al servizio del nostro cliente
           </div>
         </div>
@@ -45,7 +45,7 @@ const Index = () => (
         </div>
       </div> */}
     </section>
-    <section id="features" className="py-20 lg:pb-28 lg:pt-28 lg:mx-20">
+    <section id="features" className="py-14 md:py-20 lg:pb-28 lg:pt-28 lg:mx-20">
       <div className="container mx-auto text-center">
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
