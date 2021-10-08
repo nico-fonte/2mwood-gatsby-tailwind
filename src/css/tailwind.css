@@ -2,11 +2,11 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: "Montserrat", georgia, serif;
 }
 
 body {
   background-color: black;
-  font-family: "Montserrat", georgia, serif;
 }
 
 

@@ -180,9 +180,9 @@ const Index = () => (
       </div>
     </section> */}
     <section id="contatti" className="container mx-auto my-20 px-8 mb-40">
-      <div className="p-6 md:p-12 bg-primary-darker rounded-lg text-center text-white shadow">
-        <h3 className="text-3xl md:text-5xl font-semibold">Contattaci per un preventivo su misura!</h3>
-        <p className="mt-8 text-xl text-white font-thin">
+      <div className="p-6 bg-primary-darker rounded-lg text-center text-white shadow">
+        <h3 className="text-2xl md:text-5xl font-semibold">Contattaci per un preventivo su misura!</h3>
+        <p className="mt-8 text-lg md:text-xl text-white font-thin">
           Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus
           in.
         </p>
