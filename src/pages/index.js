@@ -111,7 +111,7 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<img src="https://i.ibb.co/QbTwCSB/hero.jpg" />}
+      secondarySlot={<img src="https://images.pexels.com/photos/5997996/pexels-photo-5997996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />}
     />
     <SplitSection
       id="pavimenti"
@@ -131,7 +131,7 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<img src="https://i.ibb.co/QbTwCSB/hero.jpg" />}
+      secondarySlot={<img src="https://i.ibb.co/W22Gbgc/Untitled.png" />}
     />
     <SplitSection
       id="creazioni"
@@ -148,7 +148,7 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<img src="https://i.ibb.co/QbTwCSB/hero.jpg" />}
+      secondarySlot={<img src="https://images.pexels.com/photos/6284235/pexels-photo-6284235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />}
     />
 
     {/* <section id="stats" className="py-20 lg:pt-32">
@@ -180,8 +180,8 @@ const Index = () => (
       </div>
     </section> */}
     <section id="contatti" className="container mx-auto my-20 px-8 mb-40">
-      <div className="p-12 bg-primary-darker rounded-lg text-center text-white shadow">
-        <h3 className="text-5xl font-semibold">Contattaci per un preventivo su misura!</h3>
+      <div className="p-6 md:p-12 bg-primary-darker rounded-lg text-center text-white shadow">
+        <h3 className="text-3xl md:text-5xl font-semibold">Contattaci per un preventivo su misura!</h3>
         <p className="mt-8 text-xl text-white font-thin">
           Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus
           in.
@@ -198,14 +198,14 @@ const Index = () => (
             </Button>
           </a>
           <a
-              href="mailto:info@2mwood.com"
-              aria-label="La nostra email"
-              title="La nostra email"
-              className="transition-colors duration-300 hover:text-deep-purple-800"
-            >
-          <Button size="xl" className="w-full md:w-auto shadow" href="mailto:info@2mwood.com">
-            <FaEnvelope className="inline" /> E-mail
-          </Button>
+            href="mailto:info@2mwood.com"
+            aria-label="La nostra email"
+            title="La nostra email"
+            className="transition-colors duration-300 hover:text-deep-purple-800"
+          >
+            <Button size="xl" className="w-full md:w-auto shadow" href="mailto:info@2mwood.com">
+              <FaEnvelope className="inline" /> E-mail
+            </Button>
           </a>
         </p>
       </div>

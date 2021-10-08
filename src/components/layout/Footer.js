@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoIcon from '../../svg/LogoIcon';
 import { MenuItems } from "./MenuItems";
-import { AnchorLink } from "gatsby-plugin-anchor-links";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 
