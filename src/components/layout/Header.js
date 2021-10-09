@@ -21,7 +21,7 @@ function Header({ siteTitle }) {
       <div className="block lg:hidden">
         <button
           onClick={() => toggleExpansion(!isExpanded)}
-          className="flex items-center px-3 py-2 text-white border border-white rounded hover:text-white hover:border-white"
+          className="flex items-center px-3 py-2 text-white"
         >
         { isExpanded ? 
           <svg
@@ -57,20 +57,20 @@ function Header({ siteTitle }) {
       <div
         className={`${
           isExpanded ? `block` : `hidden`
-        } w-full block flex-end lg:flex lg:items-center lg:w-auto`}
+        } pb-10 sm:pb-0 w-full block flex-end lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="text-sm lg:flex">
+        <div className="text-center text-xs lg:flex">
 
-        <AnchorLink className="block mt-8 lg:ml-4 mx-4 text-white lg:inline-block lg:mt-0 lg:border-b-2 lg:border-black lg:hover:border-primary transition duration-300" href="#serramenti" onClick={() => toggleExpansion(!isExpanded)}>
+        <AnchorLink className="uppercase block mt-8 lg:ml-4 mx-4 text-white lg:inline-block lg:mt-0 lg:border-b-2 lg:border-black lg:hover:border-primary transition duration-300" href="#serramenti" onClick={() => toggleExpansion(!isExpanded)}>
           Serramenti
         </AnchorLink>
-        <AnchorLink className="block mt-8 lg:ml-4 mx-4 text-white lg:inline-block lg:mt-0 lg:border-b-2 lg:border-black lg:hover:border-primary transition duration-300" href="#pavimenti" onClick={() => toggleExpansion(!isExpanded)}>
+        <AnchorLink className="uppercase block mt-8 lg:ml-4 mx-4 text-white lg:inline-block lg:mt-0 lg:border-b-2 lg:border-black lg:hover:border-primary transition duration-300" href="#pavimenti" onClick={() => toggleExpansion(!isExpanded)}>
           Pavimenti
         </AnchorLink>
-        <AnchorLink className="block mt-8 lg:ml-4 mx-4 text-white lg:inline-block lg:mt-0 lg:border-b-2 lg:border-black lg:hover:border-primary transition duration-300" href="#creazioni" onClick={() => toggleExpansion(!isExpanded)}>
+        <AnchorLink className="uppercase block mt-8 lg:ml-4 mx-4 text-white lg:inline-block lg:mt-0 lg:border-b-2 lg:border-black lg:hover:border-primary transition duration-300" href="#creazioni" onClick={() => toggleExpansion(!isExpanded)}>
           Creazioni
         </AnchorLink>
-        <AnchorLink className="block mt-8 lg:ml-4 mx-4 text-white lg:inline-block lg:mt-0 lg:border-b-2 lg:border-black lg:hover:border-primary transition duration-300" href="#contatti" onClick={() => toggleExpansion(!isExpanded)}>
+        <AnchorLink className="uppercase block mt-8 lg:ml-4 mx-4 text-white lg:inline-block lg:mt-0 lg:border-b-2 lg:border-black lg:hover:border-primary transition duration-300" href="#contatti" onClick={() => toggleExpansion(!isExpanded)}>
           Contatti
         </AnchorLink>
 

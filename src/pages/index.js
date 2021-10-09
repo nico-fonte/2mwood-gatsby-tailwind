@@ -13,9 +13,9 @@ import { FaChevronCircleDown } from 'react-icons/fa';
 
 const Index = () => (
   <Layout>
-    <section className="pt-20">
+    <section className="sm:pt-20">
       <div className="w-full relative">
-        <div class="absolute w-full h-full opacity-70 top-0 left-0 z-10 bg-gradient-to-r from-primary sm:bg-gradient-to-r sm:from-gray-600 sm:via-amber-500"></div>
+        <div class="absolute w-full h-full opacity-70 top-0 left-0 z-10 bg-gradient-to-r from-gray-600 via-amber-500"></div>
 
         <div className="absolute z-20 flex flex-col items-center w-full justify-center h-full">
           <div className="px-4 text-white text-center font-bold text-4xl lg:text-6xl">
@@ -23,8 +23,7 @@ const Index = () => (
           </div>
           <FaChevronCircleDown size = '40' className="mt-40 block sm:hidden animate-bounce"/>
         </div>
-        <img className="object-cover hidden sm:block" src="https://i.ibb.co/QbTwCSB/hero.jpg" />
-        <img className="object-cover block sm:hidden h-screen" src="https://images.pexels.com/photos/7473031/pexels-photo-7473031.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" />
+        <img className="object-cover h-screen sm:h-auto" src="https://i.ibb.co/QbTwCSB/hero.jpg" />
       </div>
     </section>
     <section id="features" className="py-14 md:py-20 lg:pb-28 lg:pt-28 lg:mx-20">
