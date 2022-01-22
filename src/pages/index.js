@@ -11,6 +11,8 @@ import { FaPhone } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaChevronCircleDown } from 'react-icons/fa';
 
+import Image from '../components/Image';
+
 const Index = () => (
   <Layout>
     <section className="sm:pt-20">
@@ -21,7 +23,7 @@ const Index = () => (
           <div className="px-4 text-white text-center font-bold text-4xl lg:text-6xl">
             Riqualificazione e Creazione
           </div>
-          <FaChevronCircleDown size = '40' className="mt-40 block sm:hidden animate-bounce"/>
+          <FaChevronCircleDown size="40" className="mt-40 block sm:hidden animate-bounce" />
         </div>
         <img className="object-cover h-screen sm:h-auto" src="https://i.ibb.co/QbTwCSB/hero.jpg" />
       </div>
@@ -80,7 +82,7 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<img src="https://images.pexels.com/photos/5997996/pexels-photo-5997996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />}
+      secondarySlot={<Image src="20211203_120851.jpg" className="mx-auto" />}
     />
     <SplitSection
       id="pavimenti"
@@ -100,7 +102,8 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<img src="https://i.ibb.co/W22Gbgc/Untitled.png" />}
+     
+      secondarySlot={<Image src="20211223_125042.jpg" className="mx-auto" />}
     />
     <SplitSection
       id="creazioni"
@@ -117,11 +120,17 @@ const Index = () => (
           </p>
         </div>
       }
-      secondarySlot={<img src="https://images.pexels.com/photos/6284235/pexels-photo-6284235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />}
+      secondarySlot={
+        <div className="">
+          <Image src="20211218_121453.jpg" className="relative mx-auto" />
+        </div>
+      }
     />
     <section id="contatti" className="container mx-auto my-20 px-8 mb-40">
       <div className="p-6 bg-primary-darker rounded-lg text-center text-white shadow">
-        <h3 className="text-2xl md:text-5xl font-semibold">Contattaci per un preventivo su misura!</h3>
+        <h3 className="text-2xl md:text-5xl font-semibold">
+          Contattaci per un preventivo su misura!
+        </h3>
         <p className="mt-8 text-lg md:text-xl text-white font-thin">
           Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus
           in.

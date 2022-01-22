@@ -1,10 +1,10 @@
 var plugins = [{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('/Users/nicolafontebasso/Desktop/Projects/2mwood-gatsby/2mwood-gatsby-tailwind/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/nicolafontebasso/Documents/GitHub/2mwood-gatsby-tailwind/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-google-fonts',
-      plugin: require('/Users/nicolafontebasso/Desktop/Projects/2mwood-gatsby/2mwood-gatsby-tailwind/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      plugin: require('/Users/nicolafontebasso/Documents/GitHub/2mwood-gatsby-tailwind/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["montserrat:100,200,300,400,500,600,700,800,900"],"display":"swap"},
     }]
 /* global plugins */

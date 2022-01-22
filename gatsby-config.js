@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   plugins: [
     {
@@ -30,7 +32,15 @@ module.exports = {
         duration: 5000,
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: path.join(__dirname, `src`, `images`),
+      },
+    },
     `gatsby-plugin-smoothscroll`,
-    `react-scrollspy`
+    `react-scrollspy`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`
   ]
 };
